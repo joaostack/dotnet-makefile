@@ -6,12 +6,12 @@ Arquivo Makefile que uso em projetos DotNET
 dotnet publish -p:PublishSingleFile=true -p:StripSymbols=true
 ```
 
-#### Binário nativo sem arquivos debug
+#### Binário nativo com arquivos debug
 ```bash
 dotnet publish -p:IsAotCompatible=true -p:PublishAot=true -p:PublishSingleFile=true -p:StripSymbols=true .
 ```
 
-#### Binário nativo com arquivos debug
+#### Binário nativo sem arquivos debug
 ```bash
 dotnet publish -p:IsAotCompatible=true -p:PublishAot=true -p:PublishSingleFile=true .
 ```
