@@ -20,6 +20,3 @@ build:
 
 publish:
 	dotnet publish -p:PublishSingleFile=true -p:StripSymbols=true
-
-install:
-	mv -v ./bin/Release/net10.0/linux-x64/publish/WifiPackets .
