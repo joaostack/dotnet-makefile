@@ -18,5 +18,5 @@ dotnet publish -p:IsAotCompatible=true -p:PublishAot=true -p:PublishSingleFile=t
 
 #### Binário limpo
 ```bash
-dotnet publish -p:PublishSingleFile=true -p:PublishTrimmed=true -p:StripSymbols=true -p:IsTrimmable=true -p:VerifyReferenceTrimCompatibility=true .
+dotnet publish -p:PublishSingleFile=true -p:PublishTrimmed=true -p:IsTrimmable=true -p:VerifyReferenceTrimCompatibility=true .
 ```
